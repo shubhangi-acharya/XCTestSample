@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C95500E1B566E6F002446C2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95500D1B566E6F002446C2 /* SecondViewController.m */; };
+		2C9550101B566EB3002446C2 /* SecondViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95500F1B566EB3002446C2 /* SecondViewControllerTests.m */; };
 		4EF1CF931B562DE200B028AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1CF921B562DE200B028AF /* main.m */; };
 		4EF1CF961B562DE200B028AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1CF951B562DE200B028AF /* AppDelegate.m */; };
 		4EF1CF991B562DE200B028AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1CF981B562DE200B028AF /* ViewController.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C95500C1B566E6F002446C2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2C95500D1B566E6F002446C2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2C95500F1B566EB3002446C2 /* SecondViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewControllerTests.m; sourceTree = "<group>"; };
 		4EF1CF8D1B562DE200B028AF /* iOSXCTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSXCTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF1CF911B562DE200B028AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF1CF921B562DE200B028AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +96,8 @@
 				4EF1CF9D1B562DE200B028AF /* Images.xcassets */,
 				4EF1CF9F1B562DE200B028AF /* LaunchScreen.xib */,
 				4EF1CF901B562DE200B028AF /* Supporting Files */,
+				2C95500C1B566E6F002446C2 /* SecondViewController.h */,
+				2C95500D1B566E6F002446C2 /* SecondViewController.m */,
 			);
 			path = iOSXCTestSample;
 			sourceTree = "<group>";
@@ -110,6 +117,7 @@
 				4EF1CFAC1B562DE200B028AF /* iOSXCTestSampleTests.m */,
 				4EF1CFB61B562E3400B028AF /* ViewControllerTests.m */,
 				4EF1CFAA1B562DE200B028AF /* Supporting Files */,
+				2C95500F1B566EB3002446C2 /* SecondViewControllerTests.m */,
 			);
 			path = iOSXCTestSampleTests;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C95500E1B566E6F002446C2 /* SecondViewController.m in Sources */,
 				4EF1CF991B562DE200B028AF /* ViewController.m in Sources */,
 				4EF1CF961B562DE200B028AF /* AppDelegate.m in Sources */,
 				4EF1CF931B562DE200B028AF /* main.m in Sources */,
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF1CFB71B562E3400B028AF /* ViewControllerTests.m in Sources */,
+				2C9550101B566EB3002446C2 /* SecondViewControllerTests.m in Sources */,
 				4EF1CFAD1B562DE200B028AF /* iOSXCTestSampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSXCTestSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOSXCTestSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,6 +434,7 @@
 				4EF1CFB21B562DE200B028AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF1CFB31B562DE200B028AF /* Build configuration list for PBXNativeTarget "iOSXCTestSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +443,7 @@
 				4EF1CFB51B562DE200B028AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
